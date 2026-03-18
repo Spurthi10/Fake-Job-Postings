@@ -1,16 +1,16 @@
-# 🕵️ Fake Job Posting Detection using NLP
+# Fake Job Posting Detection using NLP
 
 A beginner-friendly **Natural Language Processing (NLP)** project that detects whether a job posting is **REAL or FAKE** using Machine Learning.
 
 ---
 
-## 📌 Overview
+## Overview
 
 Fraudulent job postings are a growing problem on the internet — they trick job seekers into sharing personal data or paying fake fees. This project uses NLP techniques to automatically classify job postings as **real** or **fake** based on their text content.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source:** [Fake Job Postings Dataset – Kaggle](https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction)
 - **Size:** 17,880 job postings
@@ -20,7 +20,7 @@ Fraudulent job postings are a growing problem on the internet — they trick job
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Tool |
 |----------|------|
@@ -32,17 +32,17 @@ Fraudulent job postings are a growing problem on the internet — they trick job
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
-### ✅ Option 1 — Google Colab (Recommended for Beginners)
+###  Option 1 — Google Colab (Recommended for Beginners)
 
 1. Go to [colab.research.google.com](https://colab.research.google.com)
 2. Click **File → Upload Notebook** → upload `fake_job_detection.ipynb`
 3. Upload `fake_job_postings.csv` using the 📁 folder icon on the left sidebar
 4. Click **Runtime → Run All**
-5. Done! ✅
+5. Done! 
 
-### 💻 Option 2 — VS Code / Local
+###  Option 2 — VS Code / Local
 
 ```bash
 # Step 1: Clone the repo
@@ -70,7 +70,7 @@ fake-job-detection/
 
 ---
 
-## 🔍 Project Workflow
+##  Project Workflow
 
 ```
 Load Dataset → Explore Data → Clean Text → TF-IDF → Train Model → Evaluate → Predict
@@ -87,7 +87,7 @@ Load Dataset → Explore Data → Clean Text → TF-IDF → Train Model → Eval
 
 ---
 
-## 📈 Model Performance
+##  Model Performance
 
 | Metric | Score |
 |--------|-------|
@@ -98,38 +98,27 @@ Load Dataset → Explore Data → Clean Text → TF-IDF → Train Model → Eval
 
 ---
 
-## 🎯 Sample Prediction
+##  Sample Prediction
 
 ```python
 predict_job(
     title="Work From Home Make Money Fast",
     description="Earn $5000/week! No experience needed. Send your bank details now!",
 )
-# Output: 🚨 FAKE JOB — Confidence: 94.3%
+# Output:  FAKE JOB — Confidence: 94.3%
 
 predict_job(
     title="Software Engineer",
     description="Join our team at Google. Work on scalable backend systems.",
     requirements="3+ years Python. Strong DSA knowledge.",
 )
-# Output: ✅ REAL JOB — Confidence: 97.1%
+# Output:  REAL JOB — Confidence: 97.1%
 ```
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 This project is for **educational purposes only**. Always verify job postings through official company websites before applying.
 
 ---
-
-## 🙋 Author
-
-**Your Name**  
-B.Tech CSE | [LinkedIn](https://linkedin.com) | [GitHub](https://github.com)
-
----
-
-## 📄 License
-
-This project is open source under the [MIT License](LICENSE).
